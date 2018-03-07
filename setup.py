@@ -9,7 +9,7 @@ setup(name='django-templates',
       packages=['django-templates',],
       package_dir={'django-templates': 'django-templates'},
       package_data={'django-templates': ['templates/*/*', 'static/*/*/*']},
-      long_description=open('README.txt').read(),
+      long_description=open('README.md').read(),
       install_requires=[
         "Django >= 1.4.0"
       ]
